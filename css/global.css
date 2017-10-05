@@ -1,0 +1,290 @@
+* {
+    font-family: sans-serif Verdana Genava;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #18121E;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: right;
+}
+ul{
+    height:50px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    vertical-align:top;
+}
+
+ul li a{
+    color: #EAC67A;
+    text-decoration: none;
+    padding: 0 14px;
+    display: inline-block;
+    transition: 0.3s ease;
+    height: 44px;
+    background-color: #18121E;
+    line-height: 50px;
+}
+
+ul li:hover a{
+    background-color: #233237;
+    text-decoration: none;
+    color: #EAC67A;
+}
+
+ul li:hover ul li a{
+    background-color: #18121E;
+}
+
+ul li:hover ul li:hover{
+    background-color: #18121E;
+    display: inline-block;
+    width: 100%;
+}
+
+ul li:hover ul li:hover a{
+    background-color: #233237;
+    display: inline-block;
+    width: calc(100% - 28px);
+    text-decoration: none;
+    color: #EAC67A;
+}
+
+ul li:hover ul{
+    height: 200px;
+    transition: 1s ease;
+    opacity: 1;
+    overflow: initial;
+}
+
+ul li ul{
+    position: absolute;
+    opacity: 0;
+    top:44px;
+    transition: 0.3s ease;
+    left:0;
+    width: 180px;
+    background-color: #18121E;
+    height: 0;
+    overflow: hidden;
+}
+
+ul li ul li  {
+    display: block;
+}
+
+/* navbar quit */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    border-top: solid 1px lightgrey;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: #18121E;
+    color: white;
+}
+
+.bigger2 {
+    position: relative
+}
+
+.normal {
+    font-size: 15px;
+    left: -15px;
+    text-align: center;
+}
+
+article {
+    margin-top: 40px;
+    padding-top: 40px;
+    width: 200px;
+    height: auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.topright {
+    position: absolute;
+    top: 40px;
+    right: 550px;
+}
+
+.topleft {
+    position: absolute;
+    top: 40px;
+    Left: 450px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 70px;
+    Left: 450px;
+    padding-bottom: 30px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 70px;
+    right: 550px;
+    padding-bottom: 30px;
+}
+
+.nolinktag{
+    text-decoration: none;
+    color: black;
+}
+
+.nolinktag:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.advertisement {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-left: solid 1px lightgrey;
+    height: auto;
+    z-index: -10;
+}
+
+.caption {
+    font-size: 10px;
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 100px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 320px;
+    top: 200px;
+}
+
+.img3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 320px;
+    top: 350px;
+}
+
+.img4 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+
+.img5 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 320px;
+    top: 260px;
+}
+
+.img6 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px;
+    top: 260px;
+}
+
+h2 {
+    position: absolute;
+    top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 360px) {
+    * {
+        font-family: sans-serif Verdana Genava;
+        margin: 0;
+        padding: 0;
+    }
+
+    .advertisement {
+        position: static;
+        padding-bottom: 60px;
+        padding-left: 70px;
+        height: auto;
+        border-left: 1px solid white;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .topright {
+        position: static;
+        top: 40px;
+        display: inline-block;
+        padding-left: 70px;
+        margin: 0 auto;
+    }
+
+    .topleft {
+        position: static;
+        top: 40px;
+        display: inline-block;
+        padding-left: 70px;
+        margin: 0 auto;
+    }
+
+    .bottomleft {
+        position: static;
+        bottom: 40px;
+        padding-bottom: 20px;
+        display: inline-block;
+        padding-left: 70px;
+        margin: 0 auto;
+    }
+
+    .bottomright {
+        position: static;
+        bottom: 40px;
+        padding-bottom: 20px;
+        display: inline-block;
+        padding-left: 70px;
+        margin: 0 auto;
+    }
+
+
+}

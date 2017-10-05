@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Projectclass/.idea/Projectclass.iml" filepath="$PROJECT_DIR$/../../Projectclass/.idea/Projectclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../devloot/.idea/devloot.iml" filepath="$PROJECT_DIR$/../devloot/.idea/devloot.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/storage/dropdown/.idea/dropdown.iml" filepath="$USER_HOME$/Desktop/storage/dropdown/.idea/dropdown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/layout.iml" filepath="$PROJECT_DIR$/.idea/layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../projects/skykru/.idea/skykru.iml" filepath="$PROJECT_DIR$/../../projects/skykru/.idea/skykru.iml" />
+    </modules>
+  </component>
+</project>
